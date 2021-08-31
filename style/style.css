@@ -9,14 +9,14 @@
     font-size: 5vw;
   }
   .bg-pic-projects {
-    background: url("../image/1.jpg") no-repeat center center;
+    background: url("../image/4.jpg") no-repeat center center;
     background-size: cover;
     color: black;
   }
   .bg-pic-about {
-    background: url("../image/1.jpg") no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url("../image/4.jpg") no-repeat;
+    background-position: top;
+    background-size: contain;
     color: black;
   }
   .bg-pic-contact {
@@ -54,14 +54,14 @@
     font-size: 5vw;
   }
   .bg-pic-projects {
-    background: url("../image/1.jpg") no-repeat center center;
+    background: url("../image/4.jpg") no-repeat center center;
     background-size: cover;
     color: black;
   }
   .bg-pic-about {
-    background: url("../image/1.jpg") no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url("../image/4.jpg") no-repeat;
+    background-position: top;
+    background-size: contain;
     color: black;
   }
   .bg-pic-contact {
@@ -96,14 +96,14 @@
     color: black;
   }
   .bg-pic-projects {
-    background: url("../image/1.jpg") no-repeat center center;
+    background: url("../image/4.jpg") no-repeat center center;
     background-size: cover;
     color: black;
   }
   .bg-pic-about {
-    background: url("../image/1.jpg") no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url("../image/4.jpg") no-repeat;
+    background-position: top;
+    background-size: contain;
     color: black;
   }
   .bg-pic-contact {
@@ -126,14 +126,14 @@
     color: black;
   }
   .bg-pic-projects {
-    background: url("../image/1.jpg") no-repeat center center;
+    background: url("../image/4.jpg") no-repeat center center;
     background-size: cover;
     color: black;
   }
   .bg-pic-about {
-    background: url("../image/1.jpg") no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url("../image/4.jpg") no-repeat;
+    background-position: top;
+    background-size: contain;
     color: black;
   }
   .bg-pic-contact {
@@ -157,14 +157,14 @@
     color: black;
   }
   .bg-pic-projects {
-    background: url("../image/1.jpg") no-repeat center center;
+    background: url("../image/4.jpg") no-repeat center center;
     background-size: cover;
     color: black;
   }
   .bg-pic-about {
-    background: url("../image/1.jpg") no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url("../image/4.jpg") no-repeat;
+    background-position: top;
+    background-size: contain;
     color: black;
   }
   .bg-pic-contact {
@@ -185,14 +185,14 @@
     color: black;
   }
   .bg-pic-projects {
-    background: url("../image/1.jpg") no-repeat center center;
+    background: url("../image/4.jpg") no-repeat center center;
     background-size: cover;
     color: black;
   }
   .bg-pic-about {
-    background: url("../image/1.jpg") no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url("../image/4.jpg") no-repeat;
+    background-position: top;
+    background-size: contain;
     color: black;
   }
   .bg-pic-contact {
