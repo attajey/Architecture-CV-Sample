@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <title>
+            Home
+        </title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="./style/style.css" >
+		<link rel="stylesheet" href="./style/animate.css" />
+		<link rel="stylesheet" href="./webfonts/">
+		<link rel="stylesheet" href="./style/bootstrap.min.css">
+        <link rel="stylesheet" href="./style/all.css">
+
+        <link rel="icon" href="./image/icon.svg">
+
+        <script src="./js/script.js"></script>
+		<script src="./js/wow.min.js"></script>
+		<script src="./js/jquery.min.js"></script>
+		<script src="./js/popper.min.js"></script>
+		<script src="./js/bootstrap.min.js"></script>
+        <script src="./js/typed.min.js"></script>
+
+        <script>
+			new WOW().init();
+		</script>
+
+    </head>
+    <body class="text-monospace" onload="loading()">
+        <div id="box">
+            <i class="fas fa-cog fa-spin fa-10x"></i>
+            </ul>
+        </div>
+        <div id="after-load">
+            <!-- Menu  -->
+            <div class="container-fluid px-0">
+                <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top ">
+                    <!-- Brand/logo -->
+                    <a class="navbar-brand logo" href="./index.html">Atta J</a>
+                    <!-- Links -->
+                    <div class="collapse navbar-collapse custom-menu" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item m-2">
+                                <a class="nav-link" href="./contact.html">CONTACT</a>
+                            </li>
+                            <li class="nav-item m-2">
+                                <a class="nav-link" href="./about.html">ABOUT ME</a>
+                            </li>
+                            <li class="nav-item m-2">
+                                <a class="nav-link" href="./projects.html">PROJECTS</a>
+                            </li>
+                            <li class="nav-item m-2">
+                                <a class="nav-link" href="./index.html">HOME</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- ./Links -->
+                    <button 
+                        class="navbar-toggler" 
+                        type="button" 
+                        data-toggle="collapse" 
+                        data-target="#collapsibleNavbar" 
+                        ria-controls="basicExampleNav" 
+                        aria-expanded="false" 
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </nav>
+            </div>
+            <!-- ./Menu -->
+            <main class="bg-pic">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-md-6 text-center">
+                            <div class="heading">
+                                <h1 class=" wow tada pb-2">Hey There!</h1>
+                                <h3>
+                                    <i class="fas fa-terminal fa-xs" style="color: #00FF23;" ></i>
+                                    <span class="text-slider-items">
+                                        Welcome, I'm Atta Jirofty, A Front-end Developer, Maybe a Programmer
+                                    </span>
+                                    <strong class="text-slider"></strong>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-6 text-center mt-5 pt-5">
+                            <a href="./projects.html" target="_blank">
+                                <button 
+                                type="button" 
+                                class="btn btn-dark custom-btn my-5" 
+                                data-toggle="tooltip"
+                                data-placement="bottom" 
+                                title="Click to go to Projects page!" >
+                                    Visit My Projects!
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="text-center d-flex flex-row justify-content-between">
+                <div class="d-flex justify-content-end align-items-center">
+                    <i class="fas fa-copyright fa-flip-horizontal px-1"></i><p class="pt-3 pl-2">COPYLEFT 2021 ATTA JIROFTY</p>
+                </div>
+                <div class="d-flex justify-content-start align-items-center">
+                    <i class="fab fa-bootstrap px-2" style="color: #8411f6;"></i>
+                    <i class="fab fa-js-square px-2" style="color: #efd81d;"></i>
+                    <i class="fab fa-html5 px-2" style="color: #dd4b25;"></i>
+                    <i class="fab fa-css3-alt px-2" style="color: #254bdd;"></i>
+                </div>
+            </footer>
+            <script>
+                if ($(".text-slider").length == 1) {
+                    var typed_strings = $(".text-slider-items").text();
+                    var typed = new Typed(".text-slider", {
+                        strings: typed_strings.split(", "),
+                        typeSpeed: 50,
+                        loop: true,
+                        backDelay: 900,
+                        backSpeed: 30,
+                    });
+                }
+            </script>
+        </div>
+    </body>
+</html>

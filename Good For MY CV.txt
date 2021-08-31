@@ -1,0 +1,6 @@
+https://codemyui.com/pure-css-text-glitch-and-twerk/
+https://codemyui.com/css-only-text-glitch-and-jerk-effect/
+https://codemyui.com/gooey-blurry-text-morph-effect/
+
+
+$ npm install @glidejs/glide

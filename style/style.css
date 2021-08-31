@@ -1,0 +1,390 @@
+@media all and (max-width: 375px) {
+  .bg-pic {
+    background: url("../image/1.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    color: black;
+  }
+  .text-slider {
+    font-size: 5vw;
+  }
+  .bg-pic-projects {
+    background: url("../image/1.jpg") no-repeat center center;
+    background-size: cover;
+    color: black;
+  }
+  .bg-pic-about {
+    background: url("../image/1.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
+  }
+  .bg-pic-contact {
+    background: url("../image/1.jpg") no-repeat center center;
+    background-size: cover;
+    color: black;
+  }
+  .heading h3 {
+    font-size: 5vw;
+  }
+  .custom-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .custom-skill {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .icon {
+    padding-bottom: 10px;
+  }
+}
+@media all and (min-width: 376px) and (max-width: 575px) {
+  .bg-pic {
+    background: url("../image/1.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    color: black;
+  }
+  .text-slider {
+    font-size: 5vw;
+  }
+  .bg-pic-projects {
+    background: url("../image/1.jpg") no-repeat center center;
+    background-size: cover;
+    color: black;
+  }
+  .bg-pic-about {
+    background: url("../image/1.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
+  }
+  .bg-pic-contact {
+    background: url("../image/1.jpg") no-repeat center center;
+    background-size: cover;
+    color: black;
+  }
+  .heading h3 {
+    font-size: 5vw;
+  }
+  .custom-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .custom-skill {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .icon {
+    padding-bottom: 10px;
+  }
+}
+@media all and (min-width: 576px) and (max-width: 767px) {
+  .bg-pic {
+    background: url("../image/1.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    color: black;
+  }
+  .bg-pic-projects {
+    background: url("../image/1.jpg") no-repeat center center;
+    background-size: cover;
+    color: black;
+  }
+  .bg-pic-about {
+    background: url("../image/1.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
+  }
+  .bg-pic-contact {
+    background: url("../image/1.jpg") no-repeat center center;
+    background-size: cover;
+    color: black;
+  }
+  .heading h1 {
+    font-size: 6vw;
+  }
+  .heading h3 {
+    font-size: 8vw;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .bg-pic {
+    background: url("../image/1.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    color: black;
+  }
+  .bg-pic-projects {
+    background: url("../image/1.jpg") no-repeat center center;
+    background-size: cover;
+    color: black;
+  }
+  .bg-pic-about {
+    background: url("../image/1.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
+  }
+  .bg-pic-contact {
+    background: url("../image/1.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    color: black;
+  }
+  .heading h1 {
+    font-size: 6vw;
+  }
+  .heading h3 {
+    font-size: 6vw;
+  }
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .bg-pic {
+    background: url("../image/1.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    color: black;
+  }
+  .bg-pic-projects {
+    background: url("../image/1.jpg") no-repeat center center;
+    background-size: cover;
+    color: black;
+  }
+  .bg-pic-about {
+    background: url("../image/1.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
+  }
+  .bg-pic-contact {
+    background: url("../image/1.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    color: black;
+  }
+  .heading h1 {
+    font-size: 6vw;
+  }
+}
+@media all and (min-width: 1200px) {
+  .bg-pic {
+    background: url("../image/1.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    color: black;
+  }
+  .bg-pic-projects {
+    background: url("../image/1.jpg") no-repeat center center;
+    background-size: cover;
+    color: black;
+  }
+  .bg-pic-about {
+    background: url("../image/1.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
+  }
+  .bg-pic-contact {
+    background: url("../image/1.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    color: black;
+  }
+  .heading h1 {
+    font-size: 4vw;
+  }
+  .heading h3 {
+    font-size: 5vh;
+  }
+}
+div,
+header,
+footer,
+section,
+article,
+nav,
+aside {
+  box-sizing: border-box;
+}
+@keyframes fademovie {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade-port-cap {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+blink {
+  -webkit-animation: 0.3s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
+  animation: 0.3s linear infinite condemned_blink_effect;
+}
+
+/* for Safari 4.0 - 8.0 */
+@-webkit-keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+#after-load {
+  display: none;
+}
+#box {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body {
+  margin: 0px;
+  font-size: 13.5px;
+  animation: fademovie 0.5s ease 0s 1 normal;
+  background-color: #c5c6c7;
+}
+footer {
+  background-color: #02060a;
+}
+footer p {
+  font-size: small;
+  font-weight: lighter;
+}
+a {
+  text-decoration: none !important;
+}
+.custom-menu {
+  direction: rtl;
+  color: #0d2844;
+}
+.logo {
+  border: 3px solid #00ff23;
+  border-radius: 2vh;
+  color: #0d2844;
+  padding: 0px 10px;
+}
+.text-slider-items {
+  display: none;
+}
+.heading {
+  padding-top: 5vh;
+  text-align: center;
+}
+.heading h1 {
+  color: #00ff23;
+  font-weight: bold;
+}
+.heading h3 {
+  color: #c5c6c7;
+  font-size: 5vh;
+  margin-top: 6vh;
+}
+.heading h5 {
+  color: #c5c6c7;
+  font-weight: bold;
+}
+.custom-btn {
+  background: transparent !important;
+  border: 3px solid #040b13 !important;
+  border-radius: 3vh !important;
+  color: #00ff23 !important;
+}
+.custom-btn:hover {
+  background: #040b13 !important;
+  color: #dd1133 !important;
+  transition: all 0.2s !important;
+}
+
+/* PROJECT STYLES */
+.project-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  color: #3a7cc3;
+}
+.custom-carousel {
+  padding-top: 55vh;
+}
+.glide img {
+  border-radius: 20%;
+  transition: all 0.2s ease-out;
+  border: papayawhip;
+}
+.glide-button-image {
+  border-radius: 20%;
+  margin: 0px 10px;
+  transition: all 0.2s ease-out;
+  background: #091b2d;
+}
+.glide-button-image:hover {
+  box-shadow: 0px 27px 27px -10px rgba(65, 134, 250, 0.3);
+  transform: scale(1.04, 1.04);
+  opacity: 0.8;
+}
+.project-detail {
+  border-radius: 20px !important;
+}
+/* ABOUT ME STYLES */
+.profile-pic {
+  border-radius: 100%;
+  width: 50%;
+  height: 50%;
+}
+.icon {
+  padding-right: 20px;
+}
+/* CONTACT ME STYLES */
+.contact-icons {
+  color: #c5c6c7;
+  padding: 10px 10px;
+}
+.social-icons {
+  padding: 10px 10px;
+  color: #c5c6c7;
+}
+.msg-form {
+  border-radius: 20px !important;
+}
+.form {
+  border-radius: 20px !important;
+}
+address {
+  color: #0074f2;
+}
