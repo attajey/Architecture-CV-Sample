@@ -1,6 +1,6 @@
 @media all and (max-width: 375px) {
   .bg-pic {
-    background: url("../image/1.jpg") no-repeat center center;
+    background: url("../image/4.jpg") no-repeat center center;
     background-size: cover;
     height: 100%;
     color: black;
@@ -45,7 +45,7 @@
 }
 @media all and (min-width: 376px) and (max-width: 575px) {
   .bg-pic {
-    background: url("../image/1.jpg") no-repeat center center;
+    background: url("../image/4.jpg") no-repeat center center;
     background-size: cover;
     height: 100%;
     color: black;
@@ -90,7 +90,7 @@
 }
 @media all and (min-width: 576px) and (max-width: 767px) {
   .bg-pic {
-    background: url("../image/1.jpg") no-repeat center center;
+    background: url("../image/4.jpg") no-repeat center center;
     background-size: cover;
     height: 100%;
     color: black;
@@ -120,7 +120,7 @@
 }
 @media all and (min-width: 768px) and (max-width: 991px) {
   .bg-pic {
-    background: url("../image/1.jpg") no-repeat center center;
+    background: url("../image/4.jpg") no-repeat center center;
     background-size: cover;
     height: 100%;
     color: black;
@@ -151,7 +151,7 @@
 }
 @media all and (min-width: 992px) and (max-width: 1199px) {
   .bg-pic {
-    background: url("../image/1.jpg") no-repeat center center;
+    background: url("../image/4.jpg") no-repeat center center;
     background-size: cover;
     height: 100%;
     color: black;
@@ -179,7 +179,7 @@
 }
 @media all and (min-width: 1200px) {
   .bg-pic {
-    background: url("../image/1.jpg") no-repeat center center;
+    background: url("../image/4.jpg") no-repeat center center;
     background-size: cover;
     height: 100%;
     color: black;
@@ -263,6 +263,7 @@ blink {
   }
 }
 
+
 #after-load {
   display: none;
 }
@@ -276,6 +277,7 @@ blink {
 body {
   margin: 0px;
   font-size: 13.5px;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
   animation: fademovie 0.5s ease 0s 1 normal;
   background-color: #c5c6c7;
 }
@@ -291,12 +293,10 @@ a {
 }
 .custom-menu {
   direction: rtl;
-  color: #0d2844;
 }
 .logo {
-  border: 3px solid #00ff23;
+  border: 3px solid #145396;
   border-radius: 2vh;
-  color: #0d2844;
   padding: 0px 10px;
 }
 .text-slider-items {
@@ -307,23 +307,24 @@ a {
   text-align: center;
 }
 .heading h1 {
-  color: #00ff23;
+  /* color: whitesmoke; */
   font-weight: bold;
 }
 .heading h3 {
-  color: #c5c6c7;
+  color: #3b3d41;
   font-size: 5vh;
   margin-top: 6vh;
 }
+
 .heading h5 {
-  color: #c5c6c7;
+  /* color: #c5c6c7; */
   font-weight: bold;
 }
 .custom-btn {
   background: transparent !important;
   border: 3px solid #040b13 !important;
   border-radius: 3vh !important;
-  color: #00ff23 !important;
+  color: #3b3d41 !important;
 }
 .custom-btn:hover {
   background: #040b13 !important;
