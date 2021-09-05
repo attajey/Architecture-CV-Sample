@@ -413,22 +413,6 @@ address {
   color: #0074f2;
 }
 
-.row > .column {
-  padding: 0 8px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Create four equal columns that floats next to eachother */
-/* .column {
-  float: left;
-  width: 25%;
-} */
-
 /* The Modal (background) */
 .modal {
   display: none;
@@ -470,9 +454,12 @@ address {
   cursor: pointer;
 }
 
-/* Hide the slides by default */
 .mySlides {
   display: none;
+}
+
+.cursor {
+  cursor: pointer;
 }
 
 /* Next & previous buttons */
@@ -491,7 +478,6 @@ address {
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
-  z-index: 10;
 }
 
 /* Position the "next button" to the right */
@@ -515,7 +501,10 @@ address {
   top: 0;
 }
 
-/* Caption text */
+.mySlides img {
+  text-align: center;
+}
+
 .caption-container {
   text-align: center;
   background-color: black;
@@ -523,7 +512,7 @@ address {
   color: white;
 }
 
-img.demo {
+.demo {
   opacity: 0.6;
 }
 
