@@ -290,9 +290,7 @@ footer p {
 a {
   text-decoration: none !important;
 }
-.custom-menu {
-  direction: rtl;
-}
+
 .logo {
   border: 3px solid #145396;
   border-radius: 2vh;
@@ -396,12 +394,12 @@ a {
 }
 /* CONTACT ME STYLES */
 .contact-icons {
-  color: #c5c6c7;
+  color: #3c434b;
   padding: 10px 10px;
 }
 .social-icons {
   padding: 10px 10px;
-  color: #c5c6c7;
+  color: #3c434b;
 }
 .msg-form {
   border-radius: 20px !important;
