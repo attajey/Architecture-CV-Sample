@@ -1,116 +1,20 @@
 @media all and (max-width: 375px) {
-  /* .bg-pic {
-    background: url("../image/4.jpg") no-repeat center center;
-    background-size: cover;
-    height: 100%;
-    color: black;
-  } */
   .text-slider {
     font-size: 5vw;
   }
-  /* .bg-pic-projects {
-    background: url("../image/4.jpg") no-repeat center center;
-    background-size: cover;
-    color: black;
-  }
-  .bg-pic-about {
-    background: url("../image/4.jpg") no-repeat;
-    background-position: top;
-    background-size: contain;
-    color: black;
-  }
-  .bg-pic-contact {
-    background: url("../image/4.jpg") no-repeat center center;
-    background-size: cover;
-    color: black;
-  } */
   .heading h3 {
     font-size: 5vw;
-  }
-  .custom-media {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-  }
-  /* .custom-skill {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  } */
-  .icon {
-    /* padding-bottom: 10px; */
   }
 }
 @media all and (min-width: 376px) and (max-width: 575px) {
-  /* .bg-pic {
-    background: url("../image/4.jpg") no-repeat center center;
-    background-size: cover;
-    height: 100%;
-    color: black;
-  } */
   .text-slider {
     font-size: 5vw;
   }
-  /* .bg-pic-projects {
-    background: url("../image/4.jpg") no-repeat center center;
-    background-size: cover;
-    color: black;
-  }
-  .bg-pic-about {
-    background: url("../image/4.jpg") no-repeat;
-    background-position: top;
-    background-size: contain;
-    color: black;
-  }
-  .bg-pic-contact {
-    background: url("../image/4.jpg") no-repeat center center;
-    background-size: cover;
-    color: black;
-  } */
   .heading h3 {
     font-size: 5vw;
   }
-  .custom-media {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-  }
-  /* .custom-skill {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  } */
-  .icon {
-    /* padding-bottom: 10px; */
-  }
 }
 @media all and (min-width: 576px) and (max-width: 767px) {
-  /* .bg-pic {
-    background: url("../image/4.jpg") no-repeat center center;
-    background-size: cover;
-    height: 100%;
-    color: black;
-  }
-  .bg-pic-projects {
-    background: url("../image/4.jpg") no-repeat center center;
-    background-size: cover;
-    color: black;
-  }
-  .bg-pic-about {
-    background: url("../image/4.jpg") no-repeat;
-    background-position: top;
-    background-size: contain;
-    color: black;
-  }
-  .bg-pic-contact {
-    background: url("../image/4.jpg") no-repeat center center;
-    background-size: cover;
-    color: black;
-  } */
   .heading h1 {
     font-size: 6vw;
   }
@@ -119,29 +23,6 @@
   }
 }
 @media all and (min-width: 768px) and (max-width: 991px) {
-  /* .bg-pic {
-    background: url("../image/4.jpg") no-repeat center center;
-    background-size: cover;
-    height: 100%;
-    color: black;
-  }
-  .bg-pic-projects {
-    background: url("../image/4.jpg") no-repeat center center;
-    background-size: cover;
-    color: black;
-  }
-  .bg-pic-about {
-    background: url("../image/4.jpg") no-repeat;
-    background-position: top;
-    background-size: contain;
-    color: black;
-  }
-  .bg-pic-contact {
-    background: url("../image/4.jpg") no-repeat center center;
-    background-size: cover;
-    height: 100%;
-    color: black;
-  } */
   .heading h1 {
     font-size: 6vw;
   }
@@ -150,65 +31,11 @@
   }
 }
 @media all and (min-width: 992px) and (max-width: 1199px) {
-  /* .profile-pic {
-    width: 29vw;
-    height: 29vw;
-  } */
-  /* .bg-pic {
-    background: url("../image/4.jpg") no-repeat center center;
-    background-size: cover;
-    height: 100%;
-    color: black;
-  }
-  .bg-pic-projects {
-    background: url("../image/4.jpg") no-repeat center center;
-    background-size: cover;
-    color: black;
-  }
-  .bg-pic-about {
-    background: url("../image/4.jpg") no-repeat;
-    background-position: top;
-    background-size: contain;
-    color: black;
-  }
-  .bg-pic-contact {
-    background: url("../image/4.jpg") no-repeat center center;
-    background-size: cover;
-    height: 100%;
-    color: black;
-  } */
   .heading h1 {
     font-size: 6vw;
   }
 }
 @media all and (min-width: 1200px) {
-  /* .profile-pic {
-    width: 29vw;
-    height: 29vw;
-  } */
-  .bg-pic {
-    /* background: url("../image/4.jpg") no-repeat center center;
-    background-size: cover;
-    height: 100%;
-    color: black; */
-  }
-  .bg-pic-projects {
-    /* background: url("../image/4.jpg") no-repeat center center;
-    background-size: cover;
-    color: black; */
-  }
-  .bg-pic-about {
-    /* background: url("../image/4.jpg") no-repeat;
-    background-position: top;
-    background-size: contain;
-    color: black; */
-  }
-  .bg-pic-contact {
-    /* background: url("../image/4.jpg") no-repeat center center;
-    background-size: cover;
-    height: 100%;
-    color: black; */
-  }
   .heading h1 {
     font-size: 4vw;
   }
@@ -271,8 +98,8 @@
     background-position: 0% 5%;
   }
 }
-/* GRADIENT ANIMATION METHOD */
 
+/* GENERAL DESIGN CONFIG */
 div,
 header,
 footer,
@@ -328,8 +155,6 @@ blink {
     visibility: visible;
   }
 }
-/* BLINK METHOD */
-
 /* SPINNER METHOD */
 #after-load {
   display: none;
@@ -341,8 +166,6 @@ blink {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* SPINNER METHOD */
-
 /* FONT FACES */
 @font-face {
   font-family: Roboto-Black;
@@ -364,21 +187,16 @@ blink {
   font-family: Roboto-Regular;
   src: url(../webfonts/Roboto/Roboto-Regular.ttf);
 }
-/* FONT FACES */
-
 * {
   font-family: Roboto-Regular, "Times New Roman", Times, serif;
 }
-
 html {
   height: 100vh;
 }
 body {
   margin: 0px;
   font-size: 13.5px;
-  /* font-family: "Georgia", "Times New Roman", "Times", "serif"; */
   animation: fademovie 0.5s ease 0s 1 normal;
-  /* background-color: #c5c6c7; */
   height: 100vh;
 }
 .index-main {
@@ -395,6 +213,7 @@ a {
   text-decoration: none !important;
 }
 
+/* HOME STYLES */
 .logo {
   border: 3px solid #145396;
   border-radius: 3vh;
@@ -408,7 +227,6 @@ a {
   text-align: center;
 }
 .heading h1 {
-  /* color: whitesmoke; */
   font-weight: bold;
 }
 .heading h3 {
@@ -416,14 +234,11 @@ a {
   font-size: 5vh;
   margin-top: 6vh;
 }
-
 .gif {
   width: 40vw;
   height: 40vh;
 }
-
 .heading h5 {
-  /* color: #c5c6c7; */
   font-weight: bold;
 }
 .custom-btn {
@@ -439,11 +254,11 @@ a {
 }
 
 /* PROJECT STYLES */
-
 .project-grid-item {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
-
 .project-heading {
   display: flex;
   flex-direction: column;
@@ -451,17 +266,15 @@ a {
   height: 100%;
   color: #3a7cc3;
 }
-
 .project-img {
   opacity: 1;
   display: block;
-  width: 100%;
-  height: auto;
+  width: 17vw;
+  height: 17vw;
   transition: 0.5s ease;
   backface-visibility: hidden;
   border-radius: 20px;
 }
-
 .middle {
   width: 100%;
   height: auto;
@@ -477,36 +290,29 @@ a {
 .middle p {
   font-size: 1.8vw;
 }
-
 .project-grid-item:hover .project-img {
   opacity: 0.8;
   transform: scale(1.05);
 }
-
 .project-grid-item:hover .middle {
   opacity: 0.8;
   border-radius: 100px;
 }
-
 .text {
   background-color: #454b48;
   color: white;
-  padding: 16px 32px;
+  padding: 5px 5px;
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
 .project-detail {
   border-radius: 20px !important;
 }
-/* ABOUT ME STYLES */
-.custom-skill {
-  /* display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center; */
-  /* text-align: center; */
-}
 
+/* ABOUT ME STYLES */
 .profile-pic {
   border-radius: 100%;
   width: 29vw;
@@ -514,9 +320,8 @@ a {
 }
 .icon {
   padding-bottom: 20px;
-  /* display: flex;
-  align-self: flex-start; */
 }
+
 /* CONTACT ME STYLES */
 .contact-icons {
   color: #3c434b;
@@ -537,7 +342,6 @@ address {
 }
 
 /* PROJECT DETAIL STYLE */
-
 .img-rounded {
   border-radius: 20px;
 }
