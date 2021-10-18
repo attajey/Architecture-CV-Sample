@@ -32,7 +32,7 @@
 		</script>
 
     </head>
-    <body class="text-monospace">
+    <body>
         <!-- Menu  -->
         <div class="container-fluid px-0">
 
@@ -81,7 +81,7 @@
             </nav>
         </div>
         <!-- ./Menu -->        
-        <main class="bg-pic-about">
+        <main class="bg-pic-about css-selector">
             <div class="container-fluid pb-5">
                 <!-- Breadcrumb -->
                 <nav class="pt-2" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
@@ -102,8 +102,8 @@
             </div>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="wow pulse col-12 col-xl-6 text-center">
-                        <img class="img-fluid profile-pic" src="./image/My Profile Picture.jpg" alt="My Profile Picture">
+                    <div class="wow pulse col-12 text-center">
+                        <img class=" profile-pic" src="./image/My Profile Picture.jpg" alt="My Profile Picture">
                         <h3 class="pt-3">
                             <span class="text-slider-items">
                                 C'est moi !
@@ -115,62 +115,81 @@
             </div>
             <div class="container-fluid pt-5">
                 <div class="row pt-5">
-                    <div class="col-12 px-5"> 
+                    <div class="col-12 px-5 fs-5"> 
                         <div class="custom-media media pb-5 wow bounceIn">
                             <i class="fas fa-user-graduate fa-4x icon"></i>
                             <div class="media-body">
-                              <h5 class="font-weight-bolder">Educations</h5>
-                              <p>2016-2021</p>
-                              <p>Bachelor of Architecture</p>
-                              <p>Islamic Azad University of Mashhad</p>
+                              <h3 class="fw-bolder">Educations</h3>
+                              <p class="fs-6">2016-2021</p>
+                              <div class="d-flex flex-row">
+                                <i class="fas fa-circle pt-1"></i>
+                                <h5 class="fw-bold ps-2">Bachelor of Architecture</h5>
+                            </div>
+                            <p class="fs-6 ps-4">&#160;2016-2021</p>
+                            <div class="d-flex flex-row ps-4">
+                                <i class="far fa-circle pt-1"></i>
+                                <p class="ps-2">Islamic Azad University of Mashhad</p>
+                            </div>
                             </div>
                         </div>
                         <div class="custom-media media pb-5 wow bounceIn">
                             <i class="fas fa-briefcase fa-4x icon"></i>
                             <div class="media-body">
-                                <h5 class="font-weight-bolder">Work Experiences</h5>
-                                <p>2019-2021</p>
+                                <h3 class="fw-bolder">Work Experiences</h3>
+                                <p class="fs-6">2019-2021</p>
                                 <div class="media py-3">
                                     <div class="media-body">
-                                      <h5 class="font-weight-bold">1. Blah Blaher</h5>
-                                      <p>Oct 2021 - Present</p>
-                                      <p>Internship at BLAH Company</p>
-                                      <p>Finding interesting and related topics and articles for the company and posting them on the website.</p>
+                                        <div class="d-flex flex-row">
+                                            <i class="fas fa-circle pt-1"></i>
+                                            <h5 class="fw-bold ps-2">Blah Blaher</h5>
+                                        </div>
+                                      <p class="fs-6 ps-4">&#160;Oct 2021 - Present</p>
+                                      <div class="d-flex flex-row ps-4">
+                                        <i class="far fa-circle pt-1"></i>
+                                        <p class="ps-2">Internship at BLAH Company</p>
+                                    </div>
+                                      
+                                      <p class="ps-4">Finding interesting and related topics and articles for the company and posting them on the website.</p>
                                     </div>
                                 </div>
                                 <div class="media py-3">
                                     <div class="media-body">
-                                      <h5 class="font-weight-bold">2. Auto-Cad Drafter</h5>
-                                      <p>Summer of 2020</p>
-                                      <p>Internship at Arian Engineering Group</p>
-                                      <p>This program was mainly focused on Auto-Cad drafting techniques.</p>
+                                        <div class="d-flex flex-row">
+                                            <i class="fas fa-circle pt-1"></i>
+                                            <h5 class="fw-bold ps-2">AutoCAD Drafter</h5>
+                                        </div>
+                                      <p class="fs-6 ps-4">&#160;Summer of 2020</p>
+                                      <div class="d-flex flex-row ps-4">
+                                        <i class="far fa-circle pt-1"></i>
+                                        <p class="ps-2">Internship at Arian Engineering Group</p>
+                                    </div>
+                                      <p class="ps-4">This program was mainly focused on Auto-Cad drafting techniques.</p>
                                     </div>
                                 </div>
                                 <div class="media py-3">
                                     <div class="media-body">
-                                      <h5 class="font-weight-bold">3. Reaserch Assistant</h5>
-                                      <p>Summer of 2019</p>
-                                      <p>Internship at Islamic Azad University of Mashhad</p>
-                                      <p>Researched on sustainability of rural area's architecture during 1930-1980, supervised by my university professor</p>
+                                        <div class="d-flex flex-row">
+                                            <i class="fas fa-circle pt-1"></i>
+                                            <h5 class="fw-bold ps-2">Research Assistant</h5>
+                                        </div>
+                                      <p class="fs-6 ps-4">&#160;Summer of 2019</p>
+                                      <div class="d-flex flex-row ps-4">
+                                        <i class="far fa-circle pt-1"></i>
+                                        <p class="ps-2">Internship at Islamic Azad University of Mashhad</p>
                                     </div>
-                                </div>
-                                <div class="media py-3">
-                                    <div class="media-body">
-                                      <h5 class="font-weight-bold">4. Hardware R&D</h5>
-                                      <p>Jun 2019 - Sep 2019</p>
-                                      <p>Summer Internship at Zharfpouyan Company</p>
-                                      <p>Research on hardware requirements and protocols for IoT based companies.</p>
+                                      <p class="ps-4">Researched on sustainability of rural area's architecture during 1930-1980, supervised by my university professor</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="custom-media media pb-5 wow bounceIn">
-                            <i class="fas fa-wrench fa-4x icon"></i>
+                            <!-- <i class="fas fa-wrench fa-4x icon"></i> -->
+                            <i class="fas fa-drafting-compass fa-4x icon"></i>
                             <div class="media-body">
-                                <h5 class="font-weight-bolder">Skills</h5>
+                                <h3 class="fw-bolder">Skills</h3>
                                 <div class="custom-skill row pt-3">
-                                    <div class="text-center col-sm-4 col-6 d-flex flex-column align-items-center">
-                                        <p>Auto-Cad</p>
+                                    <div class="text-center col-sm-4 col-4 d-flex flex-column align-items-center">
+                                        <p class="fw-bold">Auto-Cad</p>
                                         <div class="wow pulse text-center clearfix">
                                             <div class="c100 p80 small">
                                                 <span>80%</span>
@@ -182,8 +201,8 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-sm-4 col-6 d-flex flex-column align-items-center">
-                                        <p>Lumion</p>
+                                    <div class="col-sm-4 col-4 d-flex flex-column align-items-center">
+                                        <p class="fw-bold">Lumion</p>
                                         <div class="wow pulse clearfix">
                                             <div class="c100 p70 small">
                                                 <span>70%</span>
@@ -196,8 +215,8 @@
                                     </div>
                                 </div>
                                 <div class="custom-skill row pt-3">
-                                    <div class="col-sm-4 col-6 d-flex flex-column align-items-center">
-                                        <p>3ds Max</p>
+                                    <div class="col-sm-4 col-4 d-flex flex-column align-items-center">
+                                        <p class="fw-bold">3ds Max</p>
                                         <div class="wow pulse clearfix">
                                             <div class="c100 p60 small">
                                                 <span>60%</span>
@@ -210,7 +229,7 @@
                                     </div>
 
                                     <div class="col-sm-4 col-6 d-flex flex-column align-items-center">
-                                        <p>Drawing</p>
+                                        <p class="fw-bold">Drawing</p>
                                         <div class="wow pulse clearfix">
                                             <div class="c100 p60 small">
                                                 <span>60%</span>
@@ -224,7 +243,7 @@
                                 </div>
                                 <div class="custom-skill row pt-3">
                                     <div class="col-sm-4 col-6 d-flex flex-column align-items-center">
-                                        <p>Photoshop</p>
+                                        <p class="fw-bold">Photoshop</p>
                                         <div class="wow pulse clearfix">
                                             <div class="c100 p60 small">
                                                 <span>60%</span>
@@ -237,7 +256,7 @@
                                     </div>
 
                                     <div class="col-sm-4 col-6 d-flex flex-column align-items-center">
-                                        <p>Revit</p>
+                                        <p class="fw-bold">Revit</p>
                                         <div class="wow pulse clearfix">
                                             <div class="c100 p30 small">
                                                 <span>63%</span>
@@ -254,29 +273,48 @@
                         <div class="custom-media media pb-5 wow bounceIn">
                             <i class="fas fa-stamp fa-4x icon"></i>
                             <div class="media-body">
-                                <h5 class="font-weight-bolder">Certificates</h5>
+                                <h3 class="fw-bolder">Certificates</h3>
                                 <div class="media py-3">
                                     <div class="media-body">
-                                      <h5 class="font-weight-bold">IELTS</h5>
-                                      <p>Issued Nov 2019 - Expires Nov 2021</p>
-                                      <p>IRSAFAM Institute</p>
-                                      <a target=”_blank” href="https://drive.google.com/file/d/1x7rYNOrcxXwtjmESZ2qT-nsEHXx6yyMP/view?usp=sharing">See credential</a>
+                                        <div class="d-flex flex-row">
+                                            <i class="fas fa-circle pt-1"></i>
+                                            <h5 class="fw-bold ps-2">IELTS</h5>
+                                        </div>
+                                      <p class="fs-6 ps-4">&#160;Issued Nov 2019 - Expires Nov 2021</p>
+                                      <div class="d-flex flex-row ps-4">
+                                        <i class="far fa-circle pt-1"></i>
+                                        <p class="ps-2">IRSAFAM Institute</p>
+                                        <a class="ps-4" target=”_blank” href="https://drive.google.com/file/d/1x7rYNOrcxXwtjmESZ2qT-nsEHXx6yyMP/view?usp=sharing">See credential</a>
+                                    </div>
                                     </div>
                                 </div>
                                 <div class="media py-3">
                                     <div class="media-body">
-                                      <h5 class="font-weight-bold">Architecture Group Exhibition</h5>
-                                      <p>Issued Jul 2018</p>
-                                      <p>Setavin Art And Architecture Network</p>
-                                      <a target=”_blank” href="https://drive.google.com/file/d/13jsyaXIx3MivdeR3cqN9nn4ljbgO7T9V/view?usp=sharing">See credential</a>
+                                        <div class="d-flex flex-row">
+                                            <i class="fas fa-circle pt-1"></i>
+                                            <h5 class="fw-bold ps-2">Architecture Group Exhibition</h5>
+                                        </div>
+                                      <p class="fs-6 ps-4">&#160;Issued Jul 2018</p>
+                                      <div class="d-flex flex-row ps-4">
+                                        <i class="far fa-circle pt-1"></i>
+                                        <p class="ps-2">Setavin Art And Architecture Network</p>
+                                        <a class="ps-4" target=”_blank” href="https://drive.google.com/file/d/13jsyaXIx3MivdeR3cqN9nn4ljbgO7T9V/view?usp=sharing">See credential</a>
+                                    </div>
+                                      <p></p>
                                     </div>
                                 </div>
                                 <div class="media py-3">
                                     <div class="media-body">
-                                      <h5 class="font-weight-bold">Architecture Design Process Workshop</h5>
-                                      <p>Issued Sep 2017</p>
-                                      <p>Setavin Art And Architecture Network</p>
-                                      <a target=”_blank” href="https://drive.google.com/file/d/13jsyaXIx3MivdeR3cqN9nn4ljbgO7T9V/view?usp=sharing">See credential</a>
+                                        <div class="d-flex flex-row">
+                                            <i class="fas fa-circle pt-1"></i>
+                                            <h5 class="fw-bold ps-2">Architecture Design Process Workshop</h5>
+                                        </div>
+                                      <p class="fs-6 ps-4">&#160;Issued Sep 2017</p>
+                                      <div class="d-flex flex-row ps-4">
+                                        <i class="far fa-circle pt-1"></i>
+                                        <p class="ps-2">Setavin Art And Architecture Network</p>
+                                        <a class="ps-4" target=”_blank” href="https://drive.google.com/file/d/13jsyaXIx3MivdeR3cqN9nn4ljbgO7T9V/view?usp=sharing">See credential</a>
+                                    </div>
                                     </div>
                                 </div>
                             </div>
@@ -284,39 +322,76 @@
                         <div class="custom-media media pb-5 wow bounceIn">
                             <i class="fas fa-language fa-4x icon"></i>
                             <div class="media-body">
-                                <h5 class="font-weight-bolder">Languages</h5>
+                                <h3 class="fw-bolder">Languages</h3>
                                 <div class="media py-3">
                                     <div class="media-body">
-                                      <h5 class="font-weight-bold">Persian</h5>
-                                      <p>Native or bilingual proficiency</p>
+                                        <div class="d-flex flex-row">
+                                            <i class="fas fa-circle pt-1"></i>
+                                            <h5 class="fw-bold ps-2">Persian</h5>
+                                        </div>
+                                        <div class="d-flex flex-row ps-4">
+                                            <i class="far fa-circle pt-1"></i>
+                                            <p class="ps-2">Native or bilingual proficiency</p>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="media py-3">
                                     <div class="media-body">
-                                      <h5 class="font-weight-bold">English</h5>
-                                      <p>Professional working proficiency</p>
+                                        <div class="d-flex flex-row">
+                                            <i class="fas fa-circle pt-1"></i>
+                                            <h5 class="fw-bold ps-2">English</h5>
+                                        </div>
+                                        <div class="d-flex flex-row ps-4">
+                                            <i class="far fa-circle pt-1"></i>
+                                            <p class="ps-2">Professional working proficiency</p>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="media py-3">
                                     <div class="media-body">
-                                      <h5 class="font-weight-bold">French</h5>
-                                      <p>Elementary proficiency</p>
+                                        <div class="d-flex flex-row">
+                                            <i class="fas fa-circle pt-1"></i>
+                                            <h5 class="fw-bold ps-2">French</h5>
+                                        </div>
+                                        <div class="d-flex flex-row ps-4">
+                                            <i class="far fa-circle pt-1"></i>
+                                            <p class="ps-2">Elementary proficiency</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="custom-media media pb-5 wow bounceIn">
-                            <i class="fas fa-gamepad fa-4x icon"></i>
+                            <!-- <i class="fas fa-gamepad fa-4x icon"></i> -->
+                            <i class="fas fa-palette fa-4x icon"></i>
                             <div class="media-body">
-                                <h5 class="font-weight-bolder">Hobbies</h5>
+                                <h3 class="fw-bolder">Hobbies</h3>
                                 <div class="media py-3">
                                     <div class="media-body">
-                                      <p>Playing Tonbak</p>
-                                      <p>Watching Movies</p>
-                                      <p>Getting Coffee</p>
-                                      <p>Reading Books</p>
-                                      <p>Drawing and Painting</p>
-                                      <p>Dancing</p>
+                                        <div class="d-flex flex-row">
+                                            <i class="fas fa-circle pt-1"></i>
+                                            <p class="ps-2">Playing Tonbak</p>
+                                        </div>
+                                        <div class="d-flex flex-row">
+                                            <i class="fas fa-circle pt-1"></i>
+                                            <p class="ps-2">Watching Movies</p>
+                                        </div>
+                                        <div class="d-flex flex-row">
+                                            <i class="fas fa-circle pt-1"></i>
+                                            <p class="ps-2">Getting Coffee</p>
+                                        </div>
+                                        <div class="d-flex flex-row">
+                                            <i class="fas fa-circle pt-1"></i>
+                                            <p class="ps-2">Reading Books</p>
+                                        </div>
+                                        <div class="d-flex flex-row">
+                                            <i class="fas fa-circle pt-1"></i>
+                                            <p class="ps-2">Drawing and Painting</p>
+                                        </div>
+                                        <div class="d-flex flex-row">
+                                            <i class="fas fa-circle pt-1"></i>
+                                            <p class="ps-2">Dancing</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

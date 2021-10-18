@@ -1,14 +1,14 @@
 @media all and (max-width: 375px) {
-  .bg-pic {
+  /* .bg-pic {
     background: url("../image/4.jpg") no-repeat center center;
     background-size: cover;
     height: 100%;
     color: black;
-  }
+  } */
   .text-slider {
     font-size: 5vw;
   }
-  .bg-pic-projects {
+  /* .bg-pic-projects {
     background: url("../image/4.jpg") no-repeat center center;
     background-size: cover;
     color: black;
@@ -23,21 +23,14 @@
     background: url("../image/4.jpg") no-repeat center center;
     background-size: cover;
     color: black;
-    /* background: rgb(250, 251, 253);
-    background: linear-gradient(
-      27deg,
-      rgba(250, 251, 253, 1) 22%,
-      rgba(238, 239, 241, 1) 28%,
-      rgba(8, 10, 9, 1) 100%
-    ); */
-  }
+  } */
   .heading h3 {
     font-size: 5vw;
   }
   .custom-media {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
   }
   .custom-skill {
     display: flex;
@@ -47,20 +40,20 @@
     text-align: center;
   }
   .icon {
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
   }
 }
 @media all and (min-width: 376px) and (max-width: 575px) {
-  .bg-pic {
+  /* .bg-pic {
     background: url("../image/4.jpg") no-repeat center center;
     background-size: cover;
     height: 100%;
     color: black;
-  }
+  } */
   .text-slider {
     font-size: 5vw;
   }
-  .bg-pic-projects {
+  /* .bg-pic-projects {
     background: url("../image/4.jpg") no-repeat center center;
     background-size: cover;
     color: black;
@@ -75,14 +68,14 @@
     background: url("../image/4.jpg") no-repeat center center;
     background-size: cover;
     color: black;
-  }
+  } */
   .heading h3 {
     font-size: 5vw;
   }
   .custom-media {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
   }
   .custom-skill {
     display: flex;
@@ -92,11 +85,11 @@
     text-align: center;
   }
   .icon {
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
   }
 }
 @media all and (min-width: 576px) and (max-width: 767px) {
-  .bg-pic {
+  /* .bg-pic {
     background: url("../image/4.jpg") no-repeat center center;
     background-size: cover;
     height: 100%;
@@ -117,7 +110,7 @@
     background: url("../image/4.jpg") no-repeat center center;
     background-size: cover;
     color: black;
-  }
+  } */
   .heading h1 {
     font-size: 6vw;
   }
@@ -126,7 +119,7 @@
   }
 }
 @media all and (min-width: 768px) and (max-width: 991px) {
-  .bg-pic {
+  /* .bg-pic {
     background: url("../image/4.jpg") no-repeat center center;
     background-size: cover;
     height: 100%;
@@ -148,7 +141,7 @@
     background-size: cover;
     height: 100%;
     color: black;
-  }
+  } */
   .heading h1 {
     font-size: 6vw;
   }
@@ -157,7 +150,11 @@
   }
 }
 @media all and (min-width: 992px) and (max-width: 1199px) {
-  .bg-pic {
+  /* .profile-pic {
+    width: 29vw;
+    height: 29vw;
+  } */
+  /* .bg-pic {
     background: url("../image/4.jpg") no-repeat center center;
     background-size: cover;
     height: 100%;
@@ -179,48 +176,38 @@
     background-size: cover;
     height: 100%;
     color: black;
-  }
+  } */
   .heading h1 {
     font-size: 6vw;
   }
 }
 @media all and (min-width: 1200px) {
+  /* .profile-pic {
+    width: 29vw;
+    height: 29vw;
+  } */
   .bg-pic {
-    background: url("../image/4.jpg") no-repeat center center;
+    /* background: url("../image/4.jpg") no-repeat center center;
     background-size: cover;
     height: 100%;
-    color: black;
+    color: black; */
   }
   .bg-pic-projects {
-    background: url("../image/4.jpg") no-repeat center center;
+    /* background: url("../image/4.jpg") no-repeat center center;
     background-size: cover;
-    color: black;
-    /* background: rgb(250, 251, 253);
-    background: linear-gradient(
-      90deg,
-      rgba(250, 251, 253, 1) 0%,
-      rgba(238, 239, 241, 1) 35%,
-      rgba(8, 10, 9, 1) 100%
-    ); */
+    color: black; */
   }
   .bg-pic-about {
-    background: url("../image/4.jpg") no-repeat;
+    /* background: url("../image/4.jpg") no-repeat;
     background-position: top;
     background-size: contain;
-    color: black;
+    color: black; */
   }
   .bg-pic-contact {
-    background: url("../image/4.jpg") no-repeat center center;
+    /* background: url("../image/4.jpg") no-repeat center center;
     background-size: cover;
     height: 100%;
-    color: black;
-    /* background: rgb(250, 251, 253);
-    background: linear-gradient(
-      90deg,
-      rgba(250, 251, 253, 1) 0%,
-      rgba(238, 239, 241, 1) 35%,
-      rgba(8, 10, 9, 1) 100%
-    ); */
+    color: black; */
   }
   .heading h1 {
     font-size: 4vw;
@@ -229,6 +216,63 @@
     font-size: 5vh;
   }
 }
+
+/* GRADIENT ANIMATION METHOD */
+.css-selector {
+  background: linear-gradient(92deg, #574683, #e8d1d8);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 7s ease infinite;
+  -moz-animation: AnimationName 7s ease infinite;
+  -o-animation: AnimationName 7s ease infinite;
+  animation: AnimationName 7s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 5%;
+  }
+  50% {
+    background-position: 100% 96%;
+  }
+  100% {
+    background-position: 0% 5%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 5%;
+  }
+  50% {
+    background-position: 100% 96%;
+  }
+  100% {
+    background-position: 0% 5%;
+  }
+}
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 0% 5%;
+  }
+  50% {
+    background-position: 100% 96%;
+  }
+  100% {
+    background-position: 0% 5%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 5%;
+  }
+  50% {
+    background-position: 100% 96%;
+  }
+  100% {
+    background-position: 0% 5%;
+  }
+}
+/* GRADIENT ANIMATION METHOD */
+
 div,
 header,
 footer,
@@ -238,6 +282,7 @@ nav,
 aside {
   box-sizing: border-box;
 }
+
 @keyframes fademovie {
   from {
     opacity: 0;
@@ -254,11 +299,12 @@ aside {
     opacity: 1;
   }
 }
+
+/* BLINK METHOD */
 blink {
   -webkit-animation: 0.3s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
   animation: 0.3s linear infinite condemned_blink_effect;
 }
-
 /* for Safari 4.0 - 8.0 */
 @-webkit-keyframes condemned_blink_effect {
   0% {
@@ -271,7 +317,6 @@ blink {
     visibility: visible;
   }
 }
-
 @keyframes condemned_blink_effect {
   0% {
     visibility: hidden;
@@ -283,7 +328,9 @@ blink {
     visibility: visible;
   }
 }
+/* BLINK METHOD */
 
+/* SPINNER METHOD */
 #after-load {
   display: none;
 }
@@ -294,12 +341,48 @@ blink {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+/* SPINNER METHOD */
+
+/* FONT FACES */
+@font-face {
+  font-family: Roboto-Black;
+  src: url(../webfonts/Roboto/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: Roboto-BlackItalic;
+  src: url(../webfonts/Roboto/Roboto-BlackItalic.ttf);
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(../webfonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: Roboto-Light;
+  src: url(../webfonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../webfonts/Roboto/Roboto-Regular.ttf);
+}
+/* FONT FACES */
+
+* {
+  font-family: Roboto-Regular, "Times New Roman", Times, serif;
+}
+
+html {
+  height: 100vh;
+}
 body {
   margin: 0px;
   font-size: 13.5px;
-  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  /* font-family: "Georgia", "Times New Roman", "Times", "serif"; */
   animation: fademovie 0.5s ease 0s 1 normal;
-  background-color: #c5c6c7;
+  /* background-color: #c5c6c7; */
+  height: 100vh;
+}
+.index-main {
+  height: 100vh;
 }
 footer {
   background-color: #02060a;
@@ -332,6 +415,11 @@ a {
   color: #3b3d41;
   font-size: 5vh;
   margin-top: 6vh;
+}
+
+.gif {
+  width: 40vw;
+  height: 40vh;
 }
 
 .heading h5 {
@@ -413,11 +501,13 @@ a {
 /* ABOUT ME STYLES */
 .profile-pic {
   border-radius: 100%;
-  width: 50%;
-  height: 50%;
+  width: 29vw;
+  height: 29vw;
 }
 .icon {
-  padding-right: 20px;
+  padding-bottom: 20px;
+  /* display: flex;
+  align-self: flex-start; */
 }
 /* CONTACT ME STYLES */
 .contact-icons {
