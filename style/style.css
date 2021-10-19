@@ -1,4 +1,10 @@
 @media all and (max-width: 375px) {
+  .index-main {
+    height: 90vh;
+  }
+  .contact-main {
+    height: 120vh;
+  }
   .text-slider {
     font-size: 5vw;
   }
@@ -7,6 +13,12 @@
   }
 }
 @media all and (min-width: 376px) and (max-width: 575px) {
+  .index-main {
+    height: 90vh;
+  }
+  .contact-main {
+    height: 120vh;
+  }
   .text-slider {
     font-size: 5vw;
   }
@@ -15,6 +27,12 @@
   }
 }
 @media all and (min-width: 576px) and (max-width: 767px) {
+  .index-main {
+    height: 90vh;
+  }
+  .contact-main {
+    height: 120vh;
+  }
   .heading h1 {
     font-size: 6vw;
   }
@@ -23,6 +41,12 @@
   }
 }
 @media all and (min-width: 768px) and (max-width: 991px) {
+  .index-main {
+    height: 90vh;
+  }
+  .contact-main {
+    height: 90vh;
+  }
   .heading h1 {
     font-size: 6vw;
   }
@@ -31,11 +55,23 @@
   }
 }
 @media all and (min-width: 992px) and (max-width: 1199px) {
+  .index-main {
+    height: 110vh;
+  }
+  .contact-main {
+    height: 110vh;
+  }
   .heading h1 {
     font-size: 6vw;
   }
 }
 @media all and (min-width: 1200px) {
+  .index-main {
+    height: 110vh;
+  }
+  .contact-main {
+    height: 100vh;
+  }
   .heading h1 {
     font-size: 4vw;
   }
@@ -197,9 +233,6 @@ body {
   margin: 0px;
   font-size: 13.5px;
   animation: fademovie 0.5s ease 0s 1 normal;
-  height: 100vh;
-}
-.index-main {
   height: 100vh;
 }
 footer {
