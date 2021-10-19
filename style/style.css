@@ -379,6 +379,10 @@ address {
   border-radius: 20px;
 }
 
+.accordion-sections:hover {
+  background: rgba(0, 0, 0, 0.452) !important;
+}
+
 .next-prev-icon {
   color: rgb(34, 32, 32);
 }
