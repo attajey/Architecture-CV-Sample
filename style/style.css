@@ -302,11 +302,12 @@ a {
 .project-img {
   opacity: 1;
   display: block;
-  width: 17vw;
-  height: 17vw;
+  width: 100%;
+  height: auto;
   transition: 0.5s ease;
   backface-visibility: hidden;
   border-radius: 20px;
+  padding: 10px 10px;
 }
 .middle {
   width: 100%;
