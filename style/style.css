@@ -451,3 +451,13 @@ address {
   width: 100px;
   height: 100px;
 }
+
+.img-fluid-custom {
+  width: 100%;
+  height: auto;
+  overflow-x: auto;
+}
+
+.zoom-screen {
+  display: none;
+}

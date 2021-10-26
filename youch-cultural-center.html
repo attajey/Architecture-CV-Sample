@@ -173,6 +173,12 @@
                   <button type="button" class="close text-right p-2" data-bs-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true"><i class="fas fa-times-circle fa-2x close-icon"></i></span>
                   </button>
+                  <button type="button" class="ps-5 ms-5 close text-right p-2" onclick="zoomIn()">
+                    <span aria-hidden="true"><i class="fas fa-search-plus fa-2x close-icon"></i></span>
+                  </button>
+                  <button type="button" class="ps-4 ms-4 close text-right p-2" onclick="zoomOut()">
+                    <span aria-hidden="true"><i class="fas fa-search-minus fa-2x close-icon"></i></span>
+                  </button>
                   <div id="indicators" class="carousel slide" data-bs-interval="false" data-bs-keyboard="true">
                     <ol class="carousel-indicators">
                       <li data-bs-target="#indicators" data-bs-slide-to="0" class="active"></li>
@@ -192,12 +198,12 @@
 
 
                     </ol>
-                    <div class="carousel-inner">
+                    <div class="carousel-inner" id="carousel-inner-id">
                       <div class="carousel-item active" id="carousel-images">
-                        <img class="img-fluid" src="./image/Projects/University Projects/Youth Cultural Center/1-1 Description.jpg" alt="First slide">
+                        <img class="img-fluid-custom" src="./image/Projects/University Projects/Youth Cultural Center/1-1 Description.jpg" alt="First slide">
                       </div>
                       <div class="carousel-item">
-                        <img class="img-fluid" src="./image/Projects/University Projects/Youth Cultural Center/1-2 Design Process.jpg" alt="Second slide">
+                        <img class="img-fluid-custom" src="./image/Projects/University Projects/Youth Cultural Center/1-2 Design Process.jpg" alt="Second slide">
                       </div>
                       <div class="carousel-item">
                         <img class="img-fluid" src="./image/Projects/University Projects/Youth Cultural Center/1-3 Design Process.jpg" alt="Third slide">
@@ -326,5 +332,38 @@
               <i class="fab fa-css3-alt px-2" style="color: #254bdd;"></i>
           </div>
       </footer>
+      <script>
+        // var isZoomed = true;
+        function zoomIn(){
+          var myImg = document.getElementsByClassName("carousel-item");
+          console.log(myImg);
+          var myCarousel = document.getElementById("carousel-inner-id");
+          myCarousel.style.overflow = "auto";
+          for(let i=0; i < myImg.length; i++){
+            // if (isZoomed){
+              myImg[i].style.width = 150 + "%";
+              // isZoomed = false;
+            // } else {
+              // myImg[i].style.width = 100 + "%";
+              // isZoomed = true;
+            // }
+          }
+        }
+        function zoomOut(){
+          var myImg = document.getElementsByClassName("carousel-item");
+          console.log(myImg);
+          var myCarousel = document.getElementById("carousel-inner-id");
+          myCarousel.style.overflow = "auto";
+          for(let i=0; i < myImg.length; i++){
+            // if (isZoomed){
+              // myImg[i].style.width = 200 + "%";
+              // isZoomed = false;
+            // } else {
+              myImg[i].style.width = 100 + "%";
+              // isZoomed = true;
+            }
+          }
+        
+      </script>
   </body>
 </html>
