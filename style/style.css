@@ -402,14 +402,14 @@ address {
 }
 
 .next-prev-icon {
-  color: rgb(34, 32, 32);
+  color: whitesmoke;
 }
 .close-icon {
   color: rgba(0, 0, 0, 0.534);
 }
 .close-icon:hover {
   color: black;
-  transform: scale(1.2, 1.2);
+  transform: scale(1.1, 1.1);
   transition: all 0.2s;
 }
 
@@ -417,8 +417,10 @@ address {
   background: transparent;
   border: none;
   /* width: 15%; */
-  position: absolute;
-  z-index: 5;
+  /* position: relative; */
+  /* top: 0%; */
+  /* left: -42%; */
+  /* z-index: 5; */
 }
 
 .accordion-body .col-12 img {

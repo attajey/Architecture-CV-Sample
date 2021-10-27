@@ -170,15 +170,23 @@
             <div class="modal fade" id="lightbox" role="dialog" tabindex="-1" data-bs-keyboard="true" aria-labelledby="exampleModalLabel" aria-hidden="true">
               <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
                 <div class="modal-content">
+                  <div class="row align-self-center">
+                    <div class="col-4">
                   <button type="button" class="close text-right p-2" data-bs-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true"><i class="fas fa-times-circle fa-2x close-icon"></i></span>
                   </button>
-                  <button type="button" class="ps-5 ms-5 close text-right p-2" onclick="zoomIn()">
+                </div>
+                <div class="col-4">
+                  <button type="button" class="close text-right p-2" onclick="zoomIn()">
                     <span aria-hidden="true"><i class="fas fa-search-plus fa-2x close-icon"></i></span>
                   </button>
-                  <button type="button" class="ps-4 ms-4 close text-right p-2" onclick="zoomOut()">
+                </div>
+                <div class="col-4">
+                  <button type="button" class=" close text-right p-2" onclick="zoomOut()">
                     <span aria-hidden="true"><i class="fas fa-search-minus fa-2x close-icon"></i></span>
                   </button>
+                </div>
+                </div>
                   <div id="indicators" class="carousel slide" data-bs-interval="false" data-bs-keyboard="true">
                     <ol class="carousel-indicators">
                       <li data-bs-target="#indicators" data-bs-slide-to="0" class="active"></li>
