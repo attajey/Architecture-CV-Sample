@@ -392,6 +392,7 @@ a {
 
 /* PROJECT STYLES */
 
+
 .project-grid-item {
     position: relative;
     display: flex;
@@ -409,7 +410,7 @@ a {
 .project-img {
     opacity: 1;
     display: block;
-    width: 100%;
+    width: 70%;
     height: auto;
     transition: 0.5s ease;
     backface-visibility: hidden;
@@ -424,7 +425,7 @@ a {
 }
 
 .middle {
-    width: 100%;
+    width: 70%;
     height: auto;
     transition: 0.5s ease;
     opacity: 0;
@@ -591,4 +592,20 @@ address {
 
 .zoom-screen {
     display: none;
+}
+
+
+.drawings-img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 10px;
+    border: 1px solid;
+    margin: 20px 20px;
+    text-align: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.drawings-img:hover {
+    transform: scale(1.1, 1.1);
 }
