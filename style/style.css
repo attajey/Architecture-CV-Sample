@@ -1,7 +1,7 @@
 @media all and (max-width: 375px) {
     .gif {
         width: 90vw;
-        height: 70vw;
+        height: 75vw;
     }
 
     .index-main {
@@ -24,7 +24,7 @@
 @media all and (min-width: 376px) and (max-width: 575px) {
     .gif {
         width: 85vw;
-        height: 65vw;
+        height: 70vw;
     }
 
     .index-main {
@@ -47,7 +47,7 @@
 @media all and (min-width: 576px) and (max-width: 767px) {
     .gif {
         width: 70vw;
-        height: 50vw;
+        height: 55vw;
     }
 
     .index-main {
@@ -70,7 +70,7 @@
 @media all and (min-width: 768px) and (max-width: 991px) {
     .gif {
         width: 59vw;
-        height: 39vw;
+        height: 44vw;
     }
 
     .index-main {
@@ -93,7 +93,7 @@
 @media all and (min-width: 992px) and (max-width: 1199px) {
     .gif {
         width: 63vw;
-        height: 43vw;
+        height: 49vw;
     }
 
     .index-main {
@@ -112,7 +112,7 @@
 @media all and (min-width: 1200px) {
     .gif {
         width: 50vw;
-        height: 30vw;
+        height: 35vw;
     }
 
     .index-main {
@@ -342,24 +342,62 @@ footer p {
 
 a {
     text-decoration: none !important;
+    font-family: Roboto-Regular, "Times New Roman", Times, serif !important;
+
 }
+
+.nav-link {
+    transition: all 1s ease !important;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+}
+
+.nav-link:hover {
+    color: whitesmoke !important;
+}
+
+.the-blur {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, .4);
+    z-index: 1010;
+    -webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -o-filter: blur(20px);
+    -ms-filter: blur(20px);
+    filter: blur(20px);
+}
+
 
 
 /* HOME STYLES */
 
 .logo {
-    border: 3px solid #145396;
-    border-radius: 3vh;
+    border: 3px solid #212529;
+    border-radius: 20px;
     padding: 0px 10px;
+    transition: all 1s ease;
+}
+
+.logo:hover {
+    color: whitesmoke !important;
+    border-radius: 1px;
 }
 
 .text-slider-items {
     display: none;
+    color: #4d9de0;
 }
 
 .heading {
     padding-top: 5vh;
     text-align: center;
+    color: #2e282a;
+    word-spacing: 5px;
+    letter-spacing: 5px;
 }
 
 .heading h1 {
@@ -385,8 +423,8 @@ a {
 
 .custom-btn:hover {
     background: #040b13 !important;
-    color: #dd1133 !important;
-    transition: all 0.2s !important;
+    color: #4d9de0 !important;
+    transition: all 0.7s !important;
 }
 
 
@@ -473,6 +511,7 @@ a {
     border-radius: 100%;
     width: 24vw;
     height: 24vw;
+    border: 3px solid;
 }
 
 .icon {
