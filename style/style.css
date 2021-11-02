@@ -262,6 +262,7 @@ aside {
 }
 
 
+
 /* BLINK METHOD */
 
 blink {
@@ -350,6 +351,8 @@ blink {
 
 html {
     height: 100vh;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
@@ -357,6 +360,7 @@ body {
     font-size: 13.5px;
     animation: fademovie 0.5s ease 0s 1 normal;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 footer {
@@ -680,12 +684,14 @@ address {
 .footer-links {
     border-bottom: 1px solid whitesmoke;
     padding: 10px 10px;
-    border-radius: 100%;
+    border-radius: 3px;
+
     transition: all 0.6s ease;
 }
 
 .footer-links:hover {
-    border-radius: 0px;
+    border-radius: 100%;
+
     color: #4d9de0 !important;
 }
 
