@@ -9,6 +9,26 @@ function showPage() {
   document.getElementById("after-load").style.display = "block";
 }
 
+function zoomIn() {
+  var myImg = document.getElementsByClassName("carousel-item");
+  console.log(myImg);
+  var myCarousel = document.getElementById("carousel-inner-id");
+  myCarousel.style.overflow = "auto";
+  for (let i = 0; i < myImg.length; i++) {
+      myImg[i].style.width = 150 + "%";
+  }
+}
+
+function zoomOut() {
+  var myImg = document.getElementsByClassName("carousel-item");
+  console.log(myImg);
+  var myCarousel = document.getElementById("carousel-inner-id");
+  myCarousel.style.overflow = "auto";
+  for (let i = 0; i < myImg.length; i++) {
+      myImg[i].style.width = 100 + "%";
+  }
+}
+
 //var dom = document.getElementsByClassName('bg-pic');
 // var dom = document.getElementById('index-bg');
 // colorOne = 'rgba(10,28,90,0.8155462868741247) 0%';
