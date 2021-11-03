@@ -478,7 +478,7 @@ a {
 }
 
 .project-img {
-    opacity: 1;
+    /* opacity: 1;
     display: block;
     width: 70%;
     height: auto;
@@ -488,6 +488,15 @@ a {
     border: 1px solid;
     cursor: pointer;
     transition: 0.2s ease;
+    text-align: center; */
+
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid;
+    text-align: center;
+    transition: 0.5s ease;
+    cursor: pointer;
 }
 
 .project-img:hover {
@@ -671,14 +680,14 @@ address {
     height: 15rem;
     border-radius: 10px;
     border: 1px solid;
-    margin: 20px 20px;
+    /* margin: 20px 20px; */
     text-align: center;
     transition: 0.5s ease;
     cursor: pointer;
 }
 
 .drawings-img:hover {
-    transform: scale(1.1, 1.1);
+    transform: scale(1.05, 1.05);
 }
 
 .footer-links {
