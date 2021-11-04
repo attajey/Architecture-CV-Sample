@@ -5,7 +5,7 @@
     }
 
     .index-main {
-        height: 90vh;
+        height: 140vh;
     }
 
     .contact-main {
@@ -32,7 +32,7 @@
     }
 
     .index-main {
-        height: 99vh;
+        height: 140vh;
     }
 
     .contact-main {
@@ -59,7 +59,7 @@
     }
 
     .index-main {
-        height: 101vh;
+        height: 141vh;
     }
 
     .contact-main {
@@ -87,7 +87,7 @@
     }
 
     .index-main {
-        height: 104vh;
+        height: 144vh;
     }
 
     .contact-main {
@@ -115,7 +115,7 @@
     }
 
     .index-main {
-        height: 128vh;
+        height: 168vh;
     }
 
     .contact-main {
@@ -139,7 +139,7 @@
     }
 
     .index-main {
-        height: 125vh;
+        height: 165vh;
     }
 
     .contact-main {
@@ -349,6 +349,9 @@ blink {
     font-family: Roboto-Regular, "Times New Roman", Times, serif;
 }
 
+
+
+
 html {
     height: 100vh;
     margin: 0px;
@@ -429,7 +432,7 @@ a {
     text-align: center;
     color: #2e282a;
     word-spacing: 5px;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
 }
 
 .heading h1 {
