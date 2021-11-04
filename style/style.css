@@ -495,7 +495,29 @@ a {
 
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 40px;
+    border: 1px solid;
+    text-align: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.project-img-main {
+    /* opacity: 1;
+    display: block;
+    width: 70%;
+    height: auto;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+    border-radius: 20px;
+    border: 1px solid;
+    cursor: pointer;
+    transition: 0.2s ease;
+    text-align: center; */
+
+    width: 85%;
+    height: auto;
+    border-radius: 40px;
     border: 1px solid;
     text-align: center;
     transition: 0.5s ease;
